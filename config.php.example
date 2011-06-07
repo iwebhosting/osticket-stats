@@ -1,0 +1,10 @@
+<?php 
+
+define("MYSQLHOST", 'localhost');
+define("MYSQLUSER", 'osticket');
+define("MYSQLPW", 'osticket');
+define("MYSQLDB", 'osticket');
+
+$c = mysql_connect(MYSQLHOST, MYSQLUSER, MYSQLPW);
+mysql_select_db(MYSQLDB, $c);
+

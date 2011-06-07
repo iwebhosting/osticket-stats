@@ -37,7 +37,7 @@ $res = mysql_query($sql);
  </style>
  </head>
  <body>
-  <div id="plot" style="width: 50%; height: 100px; float: right"></div>
+  <div id="plot" style="width: 50%; height: 100px; float: right; margin-right: 80px"></div>
   <h1>How busy is help@iweb.co.uk?</h1>
   <p>
    Normally, <em>really busy</em>. The graph to the right shows how many tickets
@@ -86,5 +86,6 @@ while($r = mysql_fetch_assoc($res)) {
 ]];
 var plot = $.plot('#plot', d, options);
 </script>
+<a href="http://github.com/insom/osticket-stats"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://d3nwyuy0nl342s.cloudfront.net/img/30f550e0d38ceb6ef5b81500c64d970b7fb0f028/687474703a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub"></a>
 </body>
 </html>
